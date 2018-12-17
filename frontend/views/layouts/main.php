@@ -38,7 +38,7 @@ AppAsset::register($this);
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar">asfaf</span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
@@ -57,8 +57,8 @@ AppAsset::register($this);
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Listazas</b> <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <!--<li><a href="<?php echo Yii::$app->request->baseUrl; ?>/category/list"><b>Kategóriák</b></a></li>
-            <li><a href="<?php echo Yii::$app->request->baseUrl; ?>/product/list"><b>Listazas</b></a></li>-->
+            <li><a href="<?php echo Yii::$app->request->baseUrl; ?>/category/list"><b>HirdetésKategóriák</b></a></li>
+            <li><a href="<?php echo Yii::$app->request->baseUrl; ?>/product/list"><b>Hirdetések</b></a></li>
           </ul>
         </li>
       </ul>

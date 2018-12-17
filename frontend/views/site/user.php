@@ -22,12 +22,14 @@ echo "</thead>";
     
    
   }
-
+  
 
 
     
 
 ?>
+
 </div>
- </tbody>
+ </body>
 </table>
+<button type="addpost">New Post!</button>

@@ -41,6 +41,10 @@ class CategoryController extends BaseCategoryController{
         $this->categories = $this->getCategories();
         return $this->render('//category/list',['categories' => $this->categories]);
     }
+     public function actionNewpost(){
+       // $this->categories = $this->addCategories(); 
+         return $this->render('//category/newpost',['categories'=>$this->categories]);
+     }
 }
 
 ?>

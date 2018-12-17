@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
                  <!-- <script>
     var btn = document.getElementById('submitb');
     btn.addEventListener('click', function() {
-      document.location.href = '<?php echo'phone.php' ?>';
+       document.location.href = '<?php //echo'phone.php' ?>'; 
     });
     </script>    -->
    

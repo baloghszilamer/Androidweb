@@ -46,7 +46,8 @@ return [
                 'category/<id:\d+>/products' => 'product/product/listcategory',
                 'category/<id:\d+>/details'=>'product/product/details',
                 'cart/add'=>'cart/cart/add',
-                'cart/index'=>'cart/cart/index'
+                'cart/index'=>'cart/cart/index',
+                'category/newpost'=>'category/category/newpost'
             ],
         ],
      

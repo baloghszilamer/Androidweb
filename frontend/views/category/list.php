@@ -1,5 +1,5 @@
 <div class="row">
-    <h1 class="kategoria">Kategóriák</h1>
+    <h1 class="kategoria">Hirdetés szerinti kategóriák</h1>
     <br/>
     <br/>
     <br/>
@@ -8,9 +8,9 @@
             <h3 class="kategoria">Nincs kategória feltöltve</h3>
         <?php else:?>
             <?php foreach($categories as $category):?>
-                <div class="col-xs-4 col-md-2 ">
+                <div class="col-xs-3 col-md-4">
                    <a href="<?php echo Yii::$app->request->baseUrl ?>/category/<?php echo $category['id'] ?>/products" class="thumbnail"> 
-                        <!-- <img src="http://via.placeholder.com/350x150" alt="<?php echo $category['name'];?>" title="<?php echo $category['name'];?>"> -->
+                         <img src="http://via.placeholder.com/350x150" alt="<?php echo $category['name'];?>" title="<?php echo $category['name'];?>"> 
                         <h4 class="text-center">
                             
                             <?php echo $category['name'];?>
